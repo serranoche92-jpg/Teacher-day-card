@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers' Day Message Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <span class="apple-icon">🍎</span>
+                <h1 class="card-title">Happy Teachers' Day!</h1>
+            </div>
+            
+            <div class="card-body">
+                <div class="personalization-form">
+                    <h3 style="margin-top: 0; color: #495057;">✏️ Personalize Your Message</h3>
+                    
+                    <div class="form-group">
+                        <label for="teacherName">Teacher's Name:</label>
+                        <input type="text" id="teacherName" placeholder="Enter your teacher's name" value="Randy Bello">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="personalMessage">Your Message:</label>
+                        <textarea id="personalMessage" placeholder="Write your heartfelt message here...">Thank you for being such an inspiring teacher! Your dedication and passion for teaching have made a lasting impact on my life. You've not only taught me academic lessons but also valuable life lessons. I'm grateful for your patience, encouragement, and belief in me.</textarea>
+                    </div>
+                    
+                    <button class="update-btn" onclick="updateCard()">Update Card 🎨</button>
+                </div>
+                
+                <div class="message-display">
+                    <div class="teacher-name" id="displayName">Dear Randy Bello,</div>
+                    <div class="message-text" id="displayMessage">Thank you for being such an inspiring teacher! Your dedication and passion for teaching have made a lasting impact on my life. You've not only taught me academic lessons but also valuable life lessons. I'm grateful for your patience, encouragement, and belief in me.</div>
+                </div>
+                
+                <div class="decorative-elements">
+                    <span class="element">📚</span>
+                    <span class="element">✏️</span>
+                    <span class="element">🌟</span>
+                    <span class="element">🎓</span>
+                </div>
+                
+                <div class="footer">
+                    With gratitude and respect 💝
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background music -->
+    <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" autoplay loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
